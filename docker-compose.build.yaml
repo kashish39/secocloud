@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  proxy: 
+    build: 
+      context: ./seco-proxy
+      dockerfile: ./Dockerfile
+    image: secocloud/secocloud-proxy:${BUILD_VERSION}
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ./Dockerfile
+    image: secocloud/secocloud-frontend:${BUILD_VERSION}
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    image: secocloud/secocloud-backend:${BUILD_VERSION}
+  cartography:
+    build:
+      context: ./cartography
+      dockerfile: ./Dockerfile
+    image: secocloud/secocloud-cartography:${BUILD_VERSION}
