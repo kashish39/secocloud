@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="Secocloud" src="https://github.com/user-attachments/assets/0216ae70-d6c3-47bb-855f-5ff1ef97563b" />
+
 # SecoCloud – Cloud Security Posture Management (CSPM) Platform
 
 ## Overview
